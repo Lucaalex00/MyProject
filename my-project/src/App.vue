@@ -12,9 +12,11 @@ export default {
 </script>
 
 <template>
-    <AppHeader/>
-    <AppNavbar/>
- <!-- USE COMPONENTS -->
+    <AppHeader />
+    <div class="w-[100vw]">
+        <AppNavbar />
+    </div>
+    <!-- USE COMPONENTS -->
 </template>
     
 

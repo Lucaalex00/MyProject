@@ -1,0 +1,88 @@
+{
+   "products": [
+        {
+        "id": 1,
+        "nome": "Caffè Americano",
+        "tipo": "Bevanda",
+        "prezzo": 1.50,
+        "descrizione": "Un classico caffè americano preparato con espresso e acqua calda."
+        },
+        {
+        "id": 2,
+        "nome": "Cappuccino",
+        "tipo": "Bevanda",
+        "prezzo": 2.00,
+        "descrizione": "Un mix perfetto di espresso, latte caldo e schiuma di latte."
+        },
+        {
+        "id": 3,
+        "nome": "Espresso",
+        "tipo": "Bevanda",
+        "prezzo": 1.20,
+        "descrizione": "Un concentrato di caffè espresso, forte e aromatico."
+        },
+        {
+        "id": 4,
+        "nome": "Macchiato",
+        "tipo": "Bevanda",
+        "prezzo": 1.80,
+        "descrizione": "Un espresso con una piccola quantità di latte caldo."
+        },
+        {
+        "id": 5,
+        "nome": "Cioccolata Calda",
+        "tipo": "Bevanda",
+        "prezzo": 2.50,
+        "descrizione": "Una deliziosa bevanda calda al cioccolato, ideale per riscaldarsi durante l'inverno."
+        },
+        {
+        "id": 6,
+        "nome": "Tea alla Menta",
+        "tipo": "Bevanda",
+        "prezzo": 2.00,
+        "descrizione": "Un tè caldo alla menta, rinfrescante e aromatico."
+        },
+        {
+        "id": 7,
+        "nome": "Panino con prosciutto e formaggio",
+        "tipo": "Panino",
+        "prezzo": 3.50,
+        "descrizione": "Un delizioso panino con prosciutto e formaggio su pane fresco."
+        },
+        {
+        "id": 8,
+        "nome": "Toast al formaggio",
+        "tipo": "Panino",
+        "prezzo": 3.00,
+        "descrizione": "Un toast caldo con formaggio fuso, perfetto per una colazione o una pausa pranzo veloce."
+        },
+        {
+        "id": 9,
+        "nome": "Muffin alla banana",
+        "tipo": "Dolce",
+        "prezzo": 2.50,
+        "descrizione": "Un morbido muffin alla banana, perfetto per accompagnare una bevanda calda."
+        },
+        {
+        "id": 10,
+        "nome": "Cornetto alla crema",
+        "tipo": "Dolce",
+        "prezzo": 1.80,
+        "descrizione": "Un cornetto appena sfornato con una gustosa crema all'interno."
+        },
+        {
+        "id": 11,
+        "nome": "Arancino",
+        "tipo": "Fritto",
+        "prezzo": 2.00,
+        "descrizione": "Un tradizionale arancino siciliano, farcito con ragù e piselli."
+        },
+        {
+        "id": 12,
+        "nome": "Patatine Fritte",
+        "tipo": "Fritto",
+        "prezzo": 2.50,
+        "descrizione": "Patatine croccanti e dorati, perfette come snack o contorno."
+        }
+    ]
+}
