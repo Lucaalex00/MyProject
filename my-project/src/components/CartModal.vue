@@ -1,8 +1,24 @@
 <template>
-    <div v-if="cartList.length> 0" class="cart-container">
+    <div class="absolute bottom-2/4 right-2/4 translate-x-2/4 translate-y-2/4 w-[500px] h-[600px] p-3 z-10 bg-black/[.7] text-white flex flex-col gap-4 border-black border-2 overflow-auto"
+        v-if="isShowCart == true">
         <!-- Mostra i prodotti nel carrello -->
-        <div v-for="(product, index) in cartList" :key="index">
-            {{ product.nome }}
+        <div class="flex flex-col p-2 gap-2 border-black border-[1px]" v-for="(product, index) in cartState.cartList"
+            :key="index">
+                
+                <table>
+                    <tbody>
+                        <tr class="flex items-center justify-between">
+                            <td class="w-[30%]"><img class=" w-[100px] rounded-md" src="https://picsum.photos/200" alt="Image"></td>
+                            <td>{{product.nome}}</td>
+                            <td>{{ product.tipo }}</td>
+                            <td>{{ (product.prezzo).toFixed(2)}}€</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                    </tbody>
+                </table>
+            {{ product.descrizione }}
         </div>
     </div>
 </template>
@@ -12,7 +28,7 @@ import { cartState } from '../store/cart-state'
 export default {
     name: 'cartModal',
     props: {
-        cartList: Array, // Ricevi l'elenco dei prodotti nel carrello come proprietà
+        isShowCart: Boolean,
     },
     data() {
         return {
@@ -23,8 +39,7 @@ export default {
         AddToCart(product) {
             // Aggiungi il prodotto al carrello
             this.$emit('add-to-cart', product);
-           
-        }
+        },
     }
 }
 </script>
