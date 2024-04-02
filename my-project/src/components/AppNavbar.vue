@@ -25,9 +25,9 @@ export default {
         AddToCart(product) {
             // Emetti un evento per aggiungere il prodotto al carrello
             cartState.cartList.push(product);
-            console.log(cartState.cartList)
+            console.log(cartState.cartList);
             alert(`Added ${product.nome} to your cart !`);
-        }
+        },
     },
     mounted() {
         this.callState.getProducts(this.callState.products_url);
