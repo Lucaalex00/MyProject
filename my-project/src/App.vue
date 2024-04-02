@@ -13,10 +13,11 @@ export default {
 
 <template>
     <AppHeader />
-    <div class="w-[100vw]">
-        <AppNavbar />
-    </div>
     <!-- USE COMPONENTS -->
+    <div class="w-[100vw] flex">
+        <AppNavbar />
+        <!-- <AppMain /> -->
+    </div>
 </template>
     
 

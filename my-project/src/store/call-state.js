@@ -1,7 +1,7 @@
 import { reactive } from "vue"; //IMPORT REACTIVE const from vue
 import axios from "axios"; //IMPORT AXIOS to invoke get call
 
-export const state = reactive({
+export const callState = reactive({
   products_url: "http://localhost:3000/products",
   products: [],
   getProducts(url) {
